@@ -1,0 +1,64 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">Cadastrar contatos</h1>
+</div>
+
+<form class="needs-validation" novalidate>
+  <div class="form-row row flex-wrap">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">Nome</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+      <div class="valid-feedback">
+        Aprovado!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">E-mail</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="E-mail" required>
+      <div class="valid-feedback">
+        Aprovado!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Celular</label>
+      <div class="input-group">
+
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Celular"
+          aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Por favor escolha o Celular
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Telefone</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Telefone" required>
+      <div class="invalid-feedback">
+        Por favor forneça um Telefone válido.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Favorito
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required checked>
+      <label class="form-check-label" for="invalidCheck2">
+        Ativo
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
